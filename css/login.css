@@ -1,0 +1,36 @@
+body {
+	font-family: "Verdana", serif;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: rgb(168, 152, 187) url('images/bg.jpg') no-repeat left top;
+}
+main {
+	width: 250px;
+	margin: 100px auto;
+	border: 1px solid #000;
+	border-radius: 1vw;
+	background-color: #fff;
+}
+main * {
+	display: block;
+	width: 200px;
+	margin: 12px auto;
+	padding: 5px;
+	border-radius: 3px;
+	border: 0;
+}
+input {
+	border: 1px solid #eee;
+}
+button {
+	width: 77px;
+	color: #fff;
+	background-color: rgb(38, 24, 48);
+}
+#forgot {
+	color: rgb(127, 43, 236);
+	text-decoration: underline;
+	cursor: pointer;
+	font-size: 0.7em;
+}
